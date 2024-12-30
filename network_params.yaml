@@ -7,8 +7,8 @@ participants:
     cl_extra_params: [--always-prepare-payload, --prepare-payload-lookahead, "12000"]
   - el_type: reth
     el_image: taiko_reth
-    cl_type: teku
-    cl_image: consensys/teku:latest
+    cl_type: lighthouse
+    cl_image: sigp/lighthouse:latest
 network_params:
   network_id: '160010'
 additional_services:
